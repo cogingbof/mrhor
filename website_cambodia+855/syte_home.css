@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.message {
+    background: rgb(224, 145, 145);
+    width: 100%;
+    height: 200px;
+}
+.message_00 {
+    width: 50%;
+    border: 1px solid black;
+    height: 199px;
+    margin: 0px 20rem 20px;
+}
+.message_001 {
+    font-family: Impact;
+    font-size: 1.5rem;
+    padding: 17px;
+    margin-left:70px;
+    margin-top: -83px;
+    color: rgba(219, 15, 15, 0.068);
+}
+.message_001:hover {
+    color: rgb(167, 137, 99);
+}
+.message_00 img {
+    height: 199px;
+    width: 100%;
+}
+.logo img {
+    width: 100px;
+}
+.text02 {
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    display: flex;
+    border-radius: 1px;
+    border: solid rgb(224, 181, 181) 1px;
+    text-align: center;
+    justify-content: center;
+
+}
+.text02 li {
+    padding: 15px 20px 10px 0px;
+}
+.text02 li a {
+    font-family: Impact;
+    font-size: 20px;
+}
+.text02 li a:hover {
+    color: yellow;
+} 
+section {
+    text-align: center;
+    justify-content: center;
+}
+.home_me h1 {
+    font-family: Khmer OS Muol Light;
+    font-size: 1.5rem;
+    display: block;
+    padding:200px 20px 20px 0px;
+}
+.home_me p {
+    font-family: Impact;
+    font-size: 1rem;
+    display: block;
+}
+.home_me h1:hover {
+    color: yellow;
+}
+.home_me p:hover {
+    color: yellow;
+}
+.partners {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    background-color: yellowgreen ;
+    margin: 300px 20px 20px 0px;
+}
+.partners a {
+    font-family: Impact;
+    font-size: 2rem;
+}
+.partners a:hover {
+    color: yellow;
+}
+.information {
+    margin: 100px 20px 20px 0px;
+}
+/*about us*/
+.img img {
+    width: 100%;
+    height: 100vh;
+    margin: 100px 20px 20px 0px;
+    background-position: center;
+    background-size: cover; 
+}
+.title_00 h3 {
+    font-family: Khmer OS Content;
+    font-size: 1rem;
+    color: white;
+    margin-top: -40rem;
+}
+.title_00 h3:hover {
+    color: yellow;
+}
+.title_00  p {
+    color: white;
+    font-family: Impact;
+}
+.title_00  p:hover {
+    color: yellow;
+}
+.text_001 p{
+    font-family: Khmer OS Content;
+    font-size: 1rem;
+    color: blue;
+}
+.text_001 p:hover {
+    color: yellow;
+}
+.text_001 {
+    margin: 30px 20px 20px 0px;
+}
+.text_001 h3 {
+    font-size: 1rem;
+    color: white;
+}
+.text_001 h3:hover {
+    color: yellow;
+}
+.fa-brands {
+    margin: 20px 20px 20px 0px;
+    color:white;
+    border: 1px solid rgba(255, 255, 0, 0.062);
+    padding: 30px;
+    background: blue;
+    font-size: 5rem;
+    border-radius: 10px;
+}
+.fa-youtube {
+    color: rgb(252, 3, 3);
+    background: rgba(153, 205, 50, 0.308);
+}
+.fa-tiktok {
+    color: white;
+    background: black;
+}
+.fa-brands:hover {
+    background: rgb(85, 69, 50);
+    border: 1px solid rgb(85, 69, 50);
+}
+/*about us*/
+
+
+.system_00 li a {
+    font-family: Impact;
+    font-size: 1rem;
+}
+.system_00 li a:hover {
+    color: yellow;
+}
+.system_00 {
+    margin: 50px 20px 20px 0px;
+}
+.Access {
+    display: flex;
+}
+.aeecess_00 {
+    width: 100%;
+    background: rgb(133, 42, 42);
+    height: auto;
+}
+.aeecess_00 h6 {
+    font-size: 1rem;
+    color: white;
+    padding: 10px;
+}
+.access_01 video {
+    width: 40%;
+}
+.access_01 img {
+    width: 42%;
+}
+/*ui/ux*/
+.ui_ux  li a {
+    font-family: Impact;
+    font-size: 1rem;
+    color: brown;
+    padding: 10px 
+}
+.ui_ux  li a:hover {
+    color: yellow;
+}
+.ui_ux {
+    margin: 50px 20px 20px 0px;
+}
+.ux_ui00 {
+    width: 100%;
+    height: auto;
+    background: rgba(70, 40, 40, 0.055);
+}
+.ux_ui00 h3 {
+    font-size: 2rem;
+    font-family: Impact;
+    text-align: center;
+    justify-content: center;
+}
+/*ui/ux*/
+
+@media (max-width:767px) and (max-width:1023px){
+    .text02 li a {
+        font-size: 0.800rem;
+    }
+    .logo img {
+        width: 70px;
+    }
+    .home_me h1 {
+        font-size: 1rem;
+        text-align: center;
+        justify-content: center;
+    }
+    .home_me p {
+        font-size: 0.800rem;
+    }
+    .partners {
+        height: 22px;
+    }
+    .partners a {
+        font-size: 1rem;
+    }
+    .img img {
+        height: 300px;
+    }
+    .title_00 h3 {
+        font-size: 12px;
+        margin: 1px 20px 20px 0px;
+        color: black;
+    }
+    .title_00 h3:hover {
+        color: black;
+    }
+    .title_00 p {
+        color: black;
+    }
+    .title_00 p:hover {
+        color: black;
+    }
+    .text_001 p {
+        color: black;
+    }
+    .text_001 h3 {
+        color: black;
+    }
+    .text_001 p:hover {
+        color: black;
+    }
+    .text_001 h3:hover {
+        color: black;
+    }
+    
+    .fa-brands {
+        margin: 20px 20px 20px 0px;
+        color:white;
+        border: 1px solid rgba(255, 255, 0, 0.062);
+        padding: 30px;
+        background: blue;
+        font-size: 2rem;
+        border-radius: 90px;
+    }
+    .fa-youtube {
+        color: rgb(252, 3, 3);
+        background: rgba(153, 205, 50, 0.308);
+    }
+    .fa-tiktok {
+        color: white;
+        background: black;
+    }
+    .message {
+        height: 100px;
+    }
+    .message_00 {
+        margin: 0px 110px 0px;
+        height: 99px;
+    }
+    .message_00 img {
+        height: 99px;
+    }
+    .message_001 {
+        font-family: Impact;
+        font-size: 1rem;
+        padding: 37px;
+        margin-left:25px;
+        color: rgba(219, 15, 15, 0.068);
+    }
+    .message_001:hover {
+        color: rgb(167, 137, 99);
+    }
+}
+
